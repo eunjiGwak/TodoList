@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/todolist")
 public class TodoController {
 
-	@GetMapping("")
+	@GetMapping("/main")
 	public String index() {
 		
 		return "index";
